@@ -2,7 +2,7 @@
   "name": "representation-playground",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://<your-username>.github.io/<repo-name>",
+  "homepage": "https://raghavian.github.io/repr-learn",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
