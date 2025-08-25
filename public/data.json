@@ -1,822 +1,822 @@
 [
   {
-    "src": "/images/apples/image-010.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-010.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0193.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0193.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0032.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0032.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0144.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0144.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0019.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0019.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-031.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-031.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0183.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0183.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-036.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-036.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0201.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0201.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0226.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0226.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0055.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0055.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0220.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0220.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0148.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0148.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-007.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-007.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-033.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-033.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0229.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0229.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0095.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0095.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0218.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0218.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-037.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-037.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0126.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0126.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-034.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-034.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0179.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0179.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-043.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-043.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-021.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-021.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0048.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0048.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0068.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0068.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-025.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-025.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-004.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-004.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0009.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0009.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-023.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-023.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-005.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-005.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-002.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-002.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0175.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0175.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-047.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-047.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0070.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0070.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-042.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-042.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-013.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-013.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0180.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0180.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-022.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-022.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-044.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-044.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0105.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0105.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0154.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0154.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0167.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0167.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0137.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0137.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0037.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0037.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0202.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0202.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0030.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0030.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0162.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0162.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0188.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0188.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-030.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-030.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0138.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0138.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0029.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0029.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-009.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-009.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0232.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0232.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0007.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0007.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-015.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-015.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0106.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0106.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-035.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-035.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-029.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-029.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0026.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0026.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0073.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0073.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-040.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-040.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-006.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-006.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0133.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0133.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-017.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-017.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0210.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0210.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-020.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-020.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-041.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-041.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-014.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-014.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0061.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0061.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-018.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-018.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0082.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0082.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-039.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-039.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-024.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-024.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-012.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-012.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-016.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-016.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-008.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-008.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0016.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0016.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0198.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0198.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-048.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-048.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-011.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-011.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-001.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-001.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0059.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0059.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0156.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0156.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-028.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-028.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-003.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-003.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-050.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-050.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0230.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0230.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0071.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0071.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0191.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0191.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-049.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-049.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-032.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-032.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-038.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-038.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-019.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-019.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-046.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-046.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0038.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0038.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0224.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0224.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0225.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0225.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-026.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-026.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0005.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0005.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-027.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-027.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0044.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0044.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/Image_0099.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/Image_0099.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/apples/image-045.jpg",
+    "src": import.meta.env.BASE_URL + "/images/apples/image-045.jpg",
     "label": "apples"
   },
   {
-    "src": "/images/oranges/image-010.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-010.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3552.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3552.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3380.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3380.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-031.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-031.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3572.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3572.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3415.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3415.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-036.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-036.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3403.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3403.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3409.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3409.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3460.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3460.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3453.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3453.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-007.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-007.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3495.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3495.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-033.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-033.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3600.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3600.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-037.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-037.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3508.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3508.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-034.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-034.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-043.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-043.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3599.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3599.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3513.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3513.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-021.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-021.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3504.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3504.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-025.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-025.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3538.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3538.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3368.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3368.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3420.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3420.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3425.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3425.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3547.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3547.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-004.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-004.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-023.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-023.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-005.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-005.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-002.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-002.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-047.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-047.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3383.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3383.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3391.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3391.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3396.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3396.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-042.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-042.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-013.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-013.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-022.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-022.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3589.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3589.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3461.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3461.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-044.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-044.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-030.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-030.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3517.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3517.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3509.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3509.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3362.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3362.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-009.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-009.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3480.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3480.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3516.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3516.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3506.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3506.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3431.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3431.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3402.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3402.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3390.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3390.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-015.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-015.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3497.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3497.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-035.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-035.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-029.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-029.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-040.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-040.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-006.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-006.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-017.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-017.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-020.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-020.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-041.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-041.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-014.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-014.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3563.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3563.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3404.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3404.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-018.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-018.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-039.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-039.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3568.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3568.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-024.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-024.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3575.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3575.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-012.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-012.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-016.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-016.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-008.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-008.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3546.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3546.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3535.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3535.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3470.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3470.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-048.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-048.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-011.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-011.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-001.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-001.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3413.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3413.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3384.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3384.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3441.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3441.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-028.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-028.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-003.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-003.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-050.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-050.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3371.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3371.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-049.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-049.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-032.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-032.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-038.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-038.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3567.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3567.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-019.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-019.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-046.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-046.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3433.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3433.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3500.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3500.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3492.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3492.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-026.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-026.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-027.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-027.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3422.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3422.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/Image_3443.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/Image_3443.jpg",
     "label": "oranges"
   },
   {
-    "src": "/images/oranges/image-045.jpg",
+    "src": import.meta.env.BASE_URL + "/images/oranges/image-045.jpg",
     "label": "oranges"
   }
 ]

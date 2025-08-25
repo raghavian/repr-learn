@@ -10,7 +10,7 @@ export default function RepresentationPlayground() {
   const [axisNames, setAxisNames] = useState({ x: "", y: "" });
 
   const loadSubset = async () => {
-    const res = await fetch("/data.json");
+    const res = await fetch(import.meta.env.BASE_URL + "data.json");
     const data = await res.json();
     const shuffled = [...data].sort(() => 0.5 - Math.random());
     const subset = shuffled.slice(0, SAMPLE_SIZE);
