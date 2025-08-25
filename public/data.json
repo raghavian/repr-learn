@@ -16,6 +16,10 @@
     "label": "apples"
   },
   {
+    "src": "images/apples/r_161_100.jpg",
+    "label": "apples"
+  },
+  {
     "src": "images/apples/Image_0019.jpg",
     "label": "apples"
   },
@@ -92,6 +96,10 @@
     "label": "apples"
   },
   {
+    "src": "images/apples/r_62_100.jpg",
+    "label": "apples"
+  },
+  {
     "src": "images/apples/image-021.jpg",
     "label": "apples"
   },
@@ -148,6 +156,10 @@
     "label": "apples"
   },
   {
+    "src": "images/apples/0_100.jpg",
+    "label": "apples"
+  },
+  {
     "src": "images/apples/Image_0180.jpg",
     "label": "apples"
   },
@@ -189,6 +201,10 @@
   },
   {
     "src": "images/apples/Image_0162.jpg",
+    "label": "apples"
+  },
+  {
+    "src": "images/apples/r_13_100.jpg",
     "label": "apples"
   },
   {
@@ -280,6 +296,10 @@
     "label": "apples"
   },
   {
+    "src": "images/apples/r_322_100.jpg",
+    "label": "apples"
+  },
+  {
     "src": "images/apples/image-018.jpg",
     "label": "apples"
   },
@@ -312,11 +332,19 @@
     "label": "apples"
   },
   {
+    "src": "images/apples/33_100.jpg",
+    "label": "apples"
+  },
+  {
     "src": "images/apples/Image_0198.jpg",
     "label": "apples"
   },
   {
     "src": "images/apples/image-048.jpg",
+    "label": "apples"
+  },
+  {
+    "src": "images/apples/134_100.jpg",
     "label": "apples"
   },
   {
@@ -372,6 +400,10 @@
     "label": "apples"
   },
   {
+    "src": "images/apples/r_324_100.jpg",
+    "label": "apples"
+  },
+  {
     "src": "images/apples/image-019.jpg",
     "label": "apples"
   },
@@ -384,7 +416,15 @@
     "label": "apples"
   },
   {
+    "src": "images/apples/326_100.jpg",
+    "label": "apples"
+  },
+  {
     "src": "images/apples/Image_0224.jpg",
+    "label": "apples"
+  },
+  {
+    "src": "images/apples/r_96_100.jpg",
     "label": "apples"
   },
   {
@@ -588,6 +628,10 @@
     "label": "oranges"
   },
   {
+    "src": "images/oranges/r_326_100.jpg",
+    "label": "oranges"
+  },
+  {
     "src": "images/oranges/image-030.jpg",
     "label": "oranges"
   },
@@ -617,6 +661,10 @@
   },
   {
     "src": "images/oranges/Image_3506.jpg",
+    "label": "oranges"
+  },
+  {
+    "src": "images/oranges/6_100.jpg",
     "label": "oranges"
   },
   {
@@ -764,6 +812,10 @@
     "label": "oranges"
   },
   {
+    "src": "images/oranges/60_100.jpg",
+    "label": "oranges"
+  },
+  {
     "src": "images/oranges/image-049.jpg",
     "label": "oranges"
   },
@@ -805,6 +857,10 @@
   },
   {
     "src": "images/oranges/image-027.jpg",
+    "label": "oranges"
+  },
+  {
+    "src": "images/oranges/r_50_100.jpg",
     "label": "oranges"
   },
   {
