@@ -9,7 +9,7 @@ def generate_manifest(base_folder="public/images", output="public/data.json"):
             for img in os.listdir(category_path):
                 if img.lower().endswith((".jpg", ".jpeg", ".png")):
                     data.append({
-                        "src": f"/images/{category}/{img}",
+                        "src": f"images/{category}/{img}",
                         "label": category
                     })
     with open(output, "w") as f:
