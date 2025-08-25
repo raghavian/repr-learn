@@ -104,8 +104,14 @@ export default function RepresentationPlayground() {
   return (
     <div style={{ width: '100%', maxWidth: 1200 }}>
       <h1 style={{ fontSize: 22, fontWeight: 600, marginBottom: 12 }}>
-        Representation Learning Playground
+        Representation Learning Playground (Data Science Lab, UCPH.)
       </h1>
+        <div style={{ padding: 12, border: '1px solid #ddd', borderRadius: 8, marginBottom: 16, background: '#fafafa' }}>
+          <strong>Instructions:</strong> Drag the images into the 2D space so that similar
+          items are closer. Use the input boxes to name the X and Y axes. 
+           <br />
+           Contact: raghav@di.ku.dk
+        </div>
 
       {/* Controls */}
       <div
@@ -174,17 +180,6 @@ export default function RepresentationPlayground() {
           }}
         >
           reset view
-        </button>
-        <button
-          onClick={exportCSV}
-          style={{
-            background: '#2563eb',
-            color: '#fff',
-            padding: '8px 12px',
-            borderRadius: 8
-          }}
-        >
-          export CSV
         </button>
       </div>
 
