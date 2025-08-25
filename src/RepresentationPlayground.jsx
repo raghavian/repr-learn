@@ -1,200 +1,152 @@
-import React, { useState, useEffect } from "react";
-import { motion } from "framer-motion";
+import React, { useEffect, useRef, useState } from 'react';
+import { motion } from 'framer-motion';
 
-const SAMPLE_SIZE = 20;
-const randomOffset = (range = 20) => (Math.random() - 0.5) * range;
+const SAMPLE_SIZE = 12;
+const randomOffset = (r = 40) => (Math.random() - 0.5) * r;
+
+function sample(arr, n) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a.slice(0, n);
+}
 
 export default function RepresentationPlayground() {
-  const [images, setImages] = useState([]);
-  const [positions, setPositions] = useState({});
-  const [axisNames, setAxisNames] = useState({ x: "", y: "" });
-
-  const loadSubset = async () => {
-    const res = await fetch(import.meta.env.BASE_URL + "data.json");
-    const raw = await res.json();
-    const data = raw.map(d => ({
-        ...d,
-        src: import.meta.env.BASE_URL + d.src.replace(/^\/+/, '')
-        }));
-    setImages(dataSubset(data)); // however you sample
-
-    const shuffled = [...data].sort(() => 0.5 - Math.random());
-    const subset = shuffled.slice(0, SAMPLE_SIZE);
-    setImages(subset);
-
-    const initialPositions = {};
-    subset.forEach((img, i) => {
-      initialPositions[img.src] = {
-        x: 300 + randomOffset(40),
-        y: 200 + randomOffset(40),
-        z: i
-      };
-    });
-    setPositions(initialPositions);
-  };
+  const [diagnostics, setDiagnostics] = useState({
+    base: import.meta.env.BASE_URL,
+    manifestOk: null,
+    manifestLen: 0,
+    error: null,
+  });
+  const [items, setItems] = useState([]);
+  const [axis, setAxis] = useState({ x: 'X', y: 'Y' });
+  const containerRef = useRef(null);
+  const [bounds, setBounds] = useState(null);
 
   useEffect(() => {
-    loadSubset();
+    // 1) Fetch manifest relative to BASE_URL
+    const base = import.meta.env.BASE_URL; // usually "/" in dev
+    const url = base + 'data.json';
+    console.log('[diag] BASE_URL =', base, 'fetching', url);
+
+    fetch(url)
+      .then(async (r) => {
+        if (!r.ok) throw new Error(`HTTP ${r.status} for ${url}`);
+        const raw = await r.json();
+
+        // 2) Normalize each src ONCE: strip any leading slash, then prefix with BASE_URL
+        const normalized = raw.map((d) => {
+          const clean = d.src.replace(/^\/+/, '');
+          const resolved = base + clean;
+          return { ...d, src: resolved };
+        });
+
+        // Log a couple of example URLs so you can click them in devtools
+        console.log('[diag] first 3 resolved image URLs:', normalized.slice(0, 3).map(d => d.src));
+
+        const subset = sample(normalized, Math.min(SAMPLE_SIZE, normalized.length));
+        setItems(
+          subset.map((d, i) => ({
+            ...d,
+            x: 300 + randomOffset(40),
+            y: 200 + randomOffset(40),
+            z: i,
+          }))
+        );
+        setDiagnostics((s) => ({ ...s, manifestOk: true, manifestLen: raw.length, error: null }));
+      })
+      .catch((e) => {
+        console.error('[diag] manifest fetch failed:', e);
+        setDiagnostics((s) => ({ ...s, manifestOk: false, error: String(e) }));
+      });
   }, []);
 
-  const handleDrag = (e, info, src) => {
-    setPositions((prev) => ({
-      ...prev,
-      [src]: { ...prev[src], x: info.point.x, y: info.point.y, z: 999 }
-    }));
-  };
-
-  const handleAxisChange = (axis, value) => {
-    setAxisNames((prev) => ({ ...prev, [axis]: value }));
-  };
-
-  const exportCSV = () => {
-    const rows = [["src", "label", "x", "y", "axis_x", "axis_y"]];
-    images.forEach((img) => {
-      const pos = positions[img.src];
-      rows.push([img.src, img.label, pos.x, pos.y, axisNames.x, axisNames.y]);
-    });
-    const csvContent =
-      "data:text/csv;charset=utf-8," + rows.map((e) => e.join(",")).join("\n");
-    const link = document.createElement("a");
-    link.href = encodeURI(csvContent);
-    link.download = "student_mapping.csv";
-    link.click();
-  };
-
-  const resetLayout = () => {
-    const resetPositions = {};
-    images.forEach((img, i) => {
-      resetPositions[img.src] = {
-        x: 300 + randomOffset(40),
-        y: 200 + randomOffset(40),
-        z: i
-      };
-    });
-    setPositions(resetPositions);
-    setAxisNames({ x: "", y: "" });
-  };
-
-  const reshuffleSubset = () => {
-    loadSubset();
-    setAxisNames({ x: "", y: "" });
-  };
+  useEffect(() => {
+    if (!containerRef.current) return;
+    const rect = containerRef.current.getBoundingClientRect();
+    setBounds({ left: 0, top: 0, right: rect.width - 100, bottom: rect.height - 100 });
+  }, []);
 
   return (
-    <div className="p-4 flex flex-col gap-4 items-center">
-      <h1 className="text-2xl font-bold">Representation Learning Playground</h1>
+    <div style={{ width: '100%', maxWidth: 1200 }}>
+      <h1 style={{ fontSize: 22, fontWeight: 600, marginBottom: 8 }}>Representation Learning Playground</h1>
 
-      {/* Axis label controls */}
-      <div className="flex gap-4">
+      {/* Diagnostics block */}
+      <div style={{ fontFamily: 'monospace', fontSize: 13, background: '#f5f5f5', border: '1px solid #e5e5e5', borderRadius: 8, padding: 10, marginBottom: 10 }}>
+        <div>BASE_URL: {diagnostics.base}</div>
+        <div>data.json: {diagnostics.manifestOk === null ? 'loading…' : diagnostics.manifestOk ? 'OK' : 'FAILED'}</div>
+        <div>manifest entries: {diagnostics.manifestLen}</div>
+        {diagnostics.error && <div style={{ color: '#b91c1c' }}>error: {diagnostics.error}</div>}
+      </div>
+
+      <div style={{ display: 'flex', gap: 8, marginBottom: 12 }}>
         <input
-          className="border p-2 rounded"
+          value={axis.x}
+          onChange={(e) => setAxis((a) => ({ ...a, x: e.target.value }))}
           placeholder="Name X axis"
-          value={axisNames.x}
-          onChange={(e) => handleAxisChange("x", e.target.value)}
+          style={{ border: '1px solid #ccc', borderRadius: 8, padding: '8px 10px' }}
         />
         <input
-          className="border p-2 rounded"
+          value={axis.y}
+          onChange={(e) => setAxis((a) => ({ ...a, y: e.target.value }))}
           placeholder="Name Y axis"
-          value={axisNames.y}
-          onChange={(e) => handleAxisChange("y", e.target.value)}
+          style={{ border: '1px solid #ccc', borderRadius: 8, padding: '8px 10px' }}
         />
       </div>
 
-      {/* 2D space */}
-      <div className="relative w-[90vw] h-[70vh] border bg-gray-100 overflow-hidden rounded-lg shadow-lg">
-        {/* Grid lines */}
-        <svg
-          className="absolute inset-0 w-full h-full pointer-events-none"
-          style={{ zIndex: 0 }}
-        >
-          {/* Vertical lines */}
-          {Array.from({ length: 20 }).map((_, i) => (
-            <line
-              key={`v-${i}`}
-              x1={i * 50}
-              y1={0}
-              x2={i * 50}
-              y2="100%"
-              stroke="rgba(0,0,0,0.05)"
-            />
+      <div
+        ref={containerRef}
+        style={{
+          position: 'relative',
+          width: '90vw',
+          height: '70vh',
+          maxWidth: 1200,
+          border: '1px solid #ddd',
+          background: '#fafafa',
+          borderRadius: 12,
+          overflow: 'hidden',
+        }}
+      >
+        {/* grid */}
+        <svg style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', pointerEvents: 'none', zIndex: 0 }}>
+          {Array.from({ length: 40 }).map((_, i) => (
+            <line key={'v' + i} x1={i * 50} y1={0} x2={i * 50} y2="100%" stroke="rgba(0,0,0,0.06)" />
           ))}
-          {/* Horizontal lines */}
-          {Array.from({ length: 15 }).map((_, i) => (
-            <line
-              key={`h-${i}`}
-              x1={0}
-              y1={i * 50}
-              x2="100%"
-              y2={i * 50}
-              stroke="rgba(0,0,0,0.05)"
-            />
+          {Array.from({ length: 30 }).map((_, i) => (
+            <line key={'h' + i} x1={0} y1={i * 50} x2="100%" y2={i * 50} stroke="rgba(0,0,0,0.06)" />
           ))}
-          {/* Center axes */}
-          <line
-            x1="50%"
-            y1={0}
-            x2="50%"
-            y2="100%"
-            stroke="rgba(0,0,0,0.2)"
-            strokeWidth={2}
-          />
-          <line
-            x1={0}
-            y1="50%"
-            x2="100%"
-            y2="50%"
-            stroke="rgba(0,0,0,0.2)"
-            strokeWidth={2}
-          />
+          <line x1="50%" y1={0} x2="50%" y2="100%" stroke="rgba(0,0,0,0.25)" strokeWidth={2} />
+          <line x1={0} y1="50%" x2="100%" y2="50%" stroke="rgba(0,0,0,0.25)" strokeWidth={2} />
         </svg>
 
-        {/* Images */}
-        {images.map((img) => {
-          const pos = positions[img.src] || { x: 300, y: 200, z: 0 };
-          return (
-              <motion.img
-                  key={img.src}
-                  src={img.src}
-                  alt={img.label}
-                  drag
-                  dragElastic={0}      // ensures pointer sticks exactly to image
-                  dragMomentum={false}
-                  onDrag={(e, info) => handleDrag(e, info, img.src)}
-                  initial={{ x: pos.x, y: pos.y }}
-                  style={{
-                    width: 100,
-                    height: 100,
-                    position: "absolute",  // keep absolute so it’s in the container
-                    cursor: "grab",
-                    borderRadius: "12px",
-                    zIndex: pos.z,
-                    boxShadow: "0 2px 8px rgba(0,0,0,0.2)"
-                  }}
-                />
-          );
-        })}
-      </div>
-
-      {/* Controls */}
-      <div className="flex gap-4 mt-2 flex-wrap justify-center">
-        <button
-          onClick={exportCSV}
-          className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
-        >
-          Export CSV
-        </button>
-        <button
-          onClick={resetLayout}
-          className="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600"
-        >
-          Reset Layout
-        </button>
-        <button
-          onClick={reshuffleSubset}
-          className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
-        >
-          New Random Subset
-        </button>
+        {items.map((it) => (
+          <motion.img
+            key={it.src}
+            src={it.src}
+            alt={it.label}
+            drag
+            dragMomentum={false}
+            dragElastic={0}
+            dragConstraints={bounds}
+            initial={{ x: it.x, y: it.y }}
+            onError={(e) => {
+              console.error('[diag] image failed to load:', it.src);
+              e.currentTarget.style.opacity = 0.3;
+              e.currentTarget.title = 'Failed to load: ' + it.src;
+            }}
+            style={{
+              width: 100,
+              height: 100,
+              position: 'absolute',
+              cursor: 'grab',
+              borderRadius: 12,
+              zIndex: it.z,
+              boxShadow: '0 2px 8px rgba(0,0,0,0.2)',
+            }}
+          />
+        ))}
       </div>
     </div>
   );
