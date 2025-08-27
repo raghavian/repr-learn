@@ -1,5 +1,141 @@
 [
   {
+    "src": "images/fruits/r_323_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/r_161_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/r_319_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/r_325_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/r_320_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/71_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/r_62_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/68_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/62_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/72_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/0_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/r_326_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/67_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/r_13_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/r_327_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/r_321_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/6_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/69_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/65_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/63_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/r_317_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/r_322_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/33_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/134_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/64_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/70_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/66_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/60_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/r_318_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/61_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/r_324_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/326_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/r_96_100.jpg",
+    "label": "fruits"
+  },
+  {
+    "src": "images/fruits/r_50_100.jpg",
+    "label": "fruits"
+  },
+  {
     "src": "images/jalebi/image-010.jpg",
     "label": "jalebi"
   },
@@ -394,62 +530,6 @@
   {
     "src": "images/pizza/Image_3443.jpg",
     "label": "pizza"
-  },
-  {
-    "src": "images/apples/r_161_100.jpg",
-    "label": "apples"
-  },
-  {
-    "src": "images/apples/r_62_100.jpg",
-    "label": "apples"
-  },
-  {
-    "src": "images/apples/0_100.jpg",
-    "label": "apples"
-  },
-  {
-    "src": "images/apples/r_13_100.jpg",
-    "label": "apples"
-  },
-  {
-    "src": "images/apples/r_322_100.jpg",
-    "label": "apples"
-  },
-  {
-    "src": "images/apples/33_100.jpg",
-    "label": "apples"
-  },
-  {
-    "src": "images/apples/134_100.jpg",
-    "label": "apples"
-  },
-  {
-    "src": "images/apples/r_324_100.jpg",
-    "label": "apples"
-  },
-  {
-    "src": "images/apples/326_100.jpg",
-    "label": "apples"
-  },
-  {
-    "src": "images/apples/r_96_100.jpg",
-    "label": "apples"
-  },
-  {
-    "src": "images/oranges/r_326_100.jpg",
-    "label": "oranges"
-  },
-  {
-    "src": "images/oranges/6_100.jpg",
-    "label": "oranges"
-  },
-  {
-    "src": "images/oranges/60_100.jpg",
-    "label": "oranges"
-  },
-  {
-    "src": "images/oranges/r_50_100.jpg",
-    "label": "oranges"
   },
   {
     "src": "images/samosa/image-010.jpg",
