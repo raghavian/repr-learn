@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 
 // Default number of images sampled per view
-const DEFAULT_SAMPLE_SIZE = 30;
+const DEFAULT_SAMPLE_SIZE = 25;
 const randomOffset = (r = 40) => (Math.random() - 0.5) * r;
 
 function sampleWithSeed(arr, n, seed) {
@@ -108,7 +108,7 @@ export default function RepresentationPlayground() {
       </h1>
         <div style={{ padding: 12, border: '1px solid #ddd', borderRadius: 8, marginBottom: 16, background: '#fafafa' }}>
           <strong>Instructions:</strong> Drag the images into the 2D space so that similar
-          items are closer. Use the input boxes to name the X and Y axes. 
+          items are closer. 
            <br />
            Contact: raghav@di.ku.dk
         </div>
@@ -212,9 +212,9 @@ export default function RepresentationPlayground() {
         ref={containerRef}
         style={{
           position: 'relative',
-          width: '90vw',
-          height: '70vh',
-          maxWidth: 1200,
+          width: '98vw',
+          height: '80vh',
+          maxWidth: 1500,
           border: '1px solid #ddd',
           background: '#f7f7f7',
           borderRadius: 12,
