@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 
 // Default number of images sampled per view
-const DEFAULT_SAMPLE_SIZE = 25;
+const DEFAULT_SAMPLE_SIZE = 30;
 const randomOffset = (r = 40) => (Math.random() - 0.5) * r;
 
 function sampleWithSeed(arr, n, seed) {
@@ -322,8 +322,8 @@ export default function RepresentationPlayground() {
               e.currentTarget.title = 'Failed to load: ' + it.src;
             }}
             style={{
-              width: 100,
-              height: 100,
+              width: 150,
+              height: 150,
               position: 'absolute',
               cursor: 'grab',
               borderRadius: 12,
